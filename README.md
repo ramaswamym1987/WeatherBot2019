@@ -84,7 +84,6 @@ This chat bot let us know the weather.
                        - utter_goodbye
                        - action_restart
 
-
 4. Train the nlu model and dialogue managenment model via trainer.py
 
 5. After successful training, start the action server using the command ' python -m rasa_sdk.endpoint --actions actions ' in a seperate terminal.
@@ -100,13 +99,3 @@ This chat bot let us know the weather.
 `Your input ->  bye    `                                                                                                                                                                                      
 `Bye bye :(`
 `Your input -> `
-
-
-
-
-
-
-
-
-
-
