@@ -1,0 +1,26 @@
+{
+  "action_fingerprints": {
+    "action_listen": {
+      "slots": [
+        "location"
+      ]
+    },
+    "action_restart": {
+      "slots": []
+    }
+  },
+  "python": "3.6.5",
+  "max_histories": [
+    5,
+    5
+  ],
+  "ensemble_name": "rasa.core.policies.ensemble.SimplePolicyEnsemble",
+  "policy_names": [
+    "rasa.core.policies.keras_policy.KerasPolicy",
+    "rasa.core.policies.memoization.MemoizationPolicy"
+  ],
+  "trained_at": "20190812-141330",
+  "rasa": "1.1.8",
+  "tensorflow": "1.13.1",
+  "sklearn": "0.20.2"
+}
